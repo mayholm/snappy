@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B60C31E1D861DC0008CC653 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60C31D1D861DC0008CC653 /* NavigationController.m */; };
+		4B60C3221D861E12008CC653 /* FullScreenImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60C3201D861E12008CC653 /* FullScreenImageController.m */; };
+		4B60C3231D861E12008CC653 /* FullScreenImageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B60C3211D861E12008CC653 /* FullScreenImageController.xib */; };
+		4BDF6BC31D853235006C10D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF6BC21D853235006C10D0 /* main.m */; };
+		4BDF6BC61D853235006C10D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF6BC51D853235006C10D0 /* AppDelegate.m */; };
+		4BDF6BCE1D853235006C10D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BDF6BCD1D853235006C10D0 /* Assets.xcassets */; };
+		4BDF6BD11D853235006C10D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDF6BCF1D853235006C10D0 /* LaunchScreen.storyboard */; };
+		4BDF6BDA1D853630006C10D0 /* PostsTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF6BD91D853630006C10D0 /* PostsTableController.m */; };
+		4BE387D61D8539EC0044C79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE387D51D8539EC0044C79F /* Main.storyboard */; };
+		4BE387E11D85462A0044C79F /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE387DF1D85462A0044C79F /* PostTableViewCell.m */; };
+		4BE387E21D85462A0044C79F /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE387E01D85462A0044C79F /* PostTableViewCell.xib */; };
+		4BE387E91D8554350044C79F /* FetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE387E81D8554350044C79F /* FetchOperation.m */; };
+		4BE387F11D857BDD0044C79F /* AppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE387F01D857BDD0044C79F /* AppModel.m */; };
+		4BE387F71D858AE10044C79F /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE387F61D858AE10044C79F /* Post.m */; };
+		4BE387FA1D85BA7D0044C79F /* UIColor+SnappyColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE387F91D85BA7D0044C79F /* UIColor+SnappyColors.m */; };
+		4BE388011D85BC0C0044C79F /* UIColor+colorWithInt.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE388001D85BC0C0044C79F /* UIColor+colorWithInt.m */; };
+		4BE388041D85D2580044C79F /* PostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE388031D85D2580044C79F /* PostController.m */; };
+		4BE388061D85EEA30044C79F /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE388051D85EEA30044C79F /* FilterView.xib */; };
+		4BE388091D85EF780044C79F /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE388081D85EF780044C79F /* FilterView.m */; };
+		4BE388111D860ED70044C79F /* CachedFetchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE388101D860ED70044C79F /* CachedFetchOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B60C31C1D861DC0008CC653 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		4B60C31D1D861DC0008CC653 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		4B60C31F1D861E12008CC653 /* FullScreenImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenImageController.h; sourceTree = "<group>"; };
+		4B60C3201D861E12008CC653 /* FullScreenImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenImageController.m; sourceTree = "<group>"; };
+		4B60C3211D861E12008CC653 /* FullScreenImageController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FullScreenImageController.xib; sourceTree = "<group>"; };
+		4BDF6BBE1D853235006C10D0 /* Snappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDF6BC21D853235006C10D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BDF6BC41D853235006C10D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BDF6BC51D853235006C10D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BDF6BCD1D853235006C10D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BDF6BD01D853235006C10D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BDF6BD21D853235006C10D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BDF6BD81D853630006C10D0 /* PostsTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostsTableController.h; sourceTree = "<group>"; };
+		4BDF6BD91D853630006C10D0 /* PostsTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostsTableController.m; sourceTree = "<group>"; };
+		4BE387D51D8539EC0044C79F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4BE387DE1D85462A0044C79F /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		4BE387DF1D85462A0044C79F /* PostTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		4BE387E01D85462A0044C79F /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		4BE387E71D8554350044C79F /* FetchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchOperation.h; sourceTree = "<group>"; };
+		4BE387E81D8554350044C79F /* FetchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchOperation.m; sourceTree = "<group>"; };
+		4BE387EF1D857BDD0044C79F /* AppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppModel.h; sourceTree = "<group>"; };
+		4BE387F01D857BDD0044C79F /* AppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppModel.m; sourceTree = "<group>"; };
+		4BE387F51D858AE10044C79F /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		4BE387F61D858AE10044C79F /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		4BE387F81D85BA7D0044C79F /* UIColor+SnappyColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SnappyColors.h"; sourceTree = "<group>"; };
+		4BE387F91D85BA7D0044C79F /* UIColor+SnappyColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SnappyColors.m"; sourceTree = "<group>"; };
+		4BE387FF1D85BC0C0044C79F /* UIColor+colorWithInt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorWithInt.h"; sourceTree = "<group>"; };
+		4BE388001D85BC0C0044C79F /* UIColor+colorWithInt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorWithInt.m"; sourceTree = "<group>"; };
+		4BE388021D85D2580044C79F /* PostController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostController.h; sourceTree = "<group>"; };
+		4BE388031D85D2580044C79F /* PostController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostController.m; sourceTree = "<group>"; };
+		4BE388051D85EEA30044C79F /* FilterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterView.xib; sourceTree = "<group>"; };
+		4BE388071D85EF780044C79F /* FilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterView.h; sourceTree = "<group>"; };
+		4BE388081D85EF780044C79F /* FilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterView.m; sourceTree = "<group>"; };
+		4BE3880F1D860ED70044C79F /* CachedFetchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachedFetchOperation.h; sourceTree = "<group>"; };
+		4BE388101D860ED70044C79F /* CachedFetchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachedFetchOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BDF6BBB1D853235006C10D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BDF6BB51D853235006C10D0 = {
+			isa = PBXGroup;
+			children = (
+				4BDF6BC01D853235006C10D0 /* Snappy */,
+				4BDF6BBF1D853235006C10D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BDF6BBF1D853235006C10D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BDF6BBE1D853235006C10D0 /* Snappy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BDF6BC01D853235006C10D0 /* Snappy */ = {
+			isa = PBXGroup;
+			children = (
+				4BE387E31D8553350044C79F /* Controllers */,
+				4BE387E41D8553480044C79F /* Views */,
+				4BE387E51D8553740044C79F /* Models */,
+				4BE387E61D8553A50044C79F /* Operations */,
+				4BE387FE1D85BBA50044C79F /* Objc Categories */,
+				4BDF6BC41D853235006C10D0 /* AppDelegate.h */,
+				4BDF6BC51D853235006C10D0 /* AppDelegate.m */,
+				4BDF6BCF1D853235006C10D0 /* LaunchScreen.storyboard */,
+				4BDF6BCD1D853235006C10D0 /* Assets.xcassets */,
+				4BDF6BD21D853235006C10D0 /* Info.plist */,
+				4BDF6BC11D853235006C10D0 /* Supporting Files */,
+			);
+			path = Snappy;
+			sourceTree = "<group>";
+		};
+		4BDF6BC11D853235006C10D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BDF6BC21D853235006C10D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BE387E31D8553350044C79F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BE387D51D8539EC0044C79F /* Main.storyboard */,
+				4BDF6BD81D853630006C10D0 /* PostsTableController.h */,
+				4BDF6BD91D853630006C10D0 /* PostsTableController.m */,
+				4BE388021D85D2580044C79F /* PostController.h */,
+				4BE388031D85D2580044C79F /* PostController.m */,
+				4B60C31C1D861DC0008CC653 /* NavigationController.h */,
+				4B60C31D1D861DC0008CC653 /* NavigationController.m */,
+				4B60C31F1D861E12008CC653 /* FullScreenImageController.h */,
+				4B60C3201D861E12008CC653 /* FullScreenImageController.m */,
+				4B60C3211D861E12008CC653 /* FullScreenImageController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4BE387E41D8553480044C79F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BE387DE1D85462A0044C79F /* PostTableViewCell.h */,
+				4BE387DF1D85462A0044C79F /* PostTableViewCell.m */,
+				4BE387E01D85462A0044C79F /* PostTableViewCell.xib */,
+				4BE388051D85EEA30044C79F /* FilterView.xib */,
+				4BE388071D85EF780044C79F /* FilterView.h */,
+				4BE388081D85EF780044C79F /* FilterView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4BE387E51D8553740044C79F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4BE387EF1D857BDD0044C79F /* AppModel.h */,
+				4BE387F01D857BDD0044C79F /* AppModel.m */,
+				4BE387F51D858AE10044C79F /* Post.h */,
+				4BE387F61D858AE10044C79F /* Post.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4BE387E61D8553A50044C79F /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				4BE387E71D8554350044C79F /* FetchOperation.h */,
+				4BE387E81D8554350044C79F /* FetchOperation.m */,
+				4BE3880F1D860ED70044C79F /* CachedFetchOperation.h */,
+				4BE388101D860ED70044C79F /* CachedFetchOperation.m */,
+			);
+			name = Operations;
+			sourceTree = "<group>";
+		};
+		4BE387FE1D85BBA50044C79F /* Objc Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4BE387F81D85BA7D0044C79F /* UIColor+SnappyColors.h */,
+				4BE387F91D85BA7D0044C79F /* UIColor+SnappyColors.m */,
+				4BE387FF1D85BC0C0044C79F /* UIColor+colorWithInt.h */,
+				4BE388001D85BC0C0044C79F /* UIColor+colorWithInt.m */,
+			);
+			name = "Objc Categories";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BDF6BBD1D853235006C10D0 /* Snappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BDF6BD51D853235006C10D0 /* Build configuration list for PBXNativeTarget "Snappy" */;
+			buildPhases = (
+				4BDF6BBA1D853235006C10D0 /* Sources */,
+				4BDF6BBB1D853235006C10D0 /* Frameworks */,
+				4BDF6BBC1D853235006C10D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snappy;
+			productName = Snappy;
+			productReference = 4BDF6BBE1D853235006C10D0 /* Snappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BDF6BB61D853235006C10D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pär Majholm";
+				TargetAttributes = {
+					4BDF6BBD1D853235006C10D0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BDF6BB91D853235006C10D0 /* Build configuration list for PBXProject "Snappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BDF6BB51D853235006C10D0;
+			productRefGroup = 4BDF6BBF1D853235006C10D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BDF6BBD1D853235006C10D0 /* Snappy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BDF6BBC1D853235006C10D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE388061D85EEA30044C79F /* FilterView.xib in Resources */,
+				4BE387D61D8539EC0044C79F /* Main.storyboard in Resources */,
+				4B60C3231D861E12008CC653 /* FullScreenImageController.xib in Resources */,
+				4BDF6BD11D853235006C10D0 /* LaunchScreen.storyboard in Resources */,
+				4BDF6BCE1D853235006C10D0 /* Assets.xcassets in Resources */,
+				4BE387E21D85462A0044C79F /* PostTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BDF6BBA1D853235006C10D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDF6BDA1D853630006C10D0 /* PostsTableController.m in Sources */,
+				4BE387F11D857BDD0044C79F /* AppModel.m in Sources */,
+				4BE388091D85EF780044C79F /* FilterView.m in Sources */,
+				4B60C31E1D861DC0008CC653 /* NavigationController.m in Sources */,
+				4B60C3221D861E12008CC653 /* FullScreenImageController.m in Sources */,
+				4BDF6BC61D853235006C10D0 /* AppDelegate.m in Sources */,
+				4BDF6BC31D853235006C10D0 /* main.m in Sources */,
+				4BE387E91D8554350044C79F /* FetchOperation.m in Sources */,
+				4BE387E11D85462A0044C79F /* PostTableViewCell.m in Sources */,
+				4BE387FA1D85BA7D0044C79F /* UIColor+SnappyColors.m in Sources */,
+				4BE388111D860ED70044C79F /* CachedFetchOperation.m in Sources */,
+				4BE388041D85D2580044C79F /* PostController.m in Sources */,
+				4BE388011D85BC0C0044C79F /* UIColor+colorWithInt.m in Sources */,
+				4BE387F71D858AE10044C79F /* Post.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BDF6BCF1D853235006C10D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BDF6BD01D853235006C10D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BDF6BD31D853235006C10D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BDF6BD41D853235006C10D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BDF6BD61D853235006C10D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Snappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayholm.Snappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4BDF6BD71D853235006C10D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Snappy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayholm.Snappy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BDF6BB91D853235006C10D0 /* Build configuration list for PBXProject "Snappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDF6BD31D853235006C10D0 /* Debug */,
+				4BDF6BD41D853235006C10D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BDF6BD51D853235006C10D0 /* Build configuration list for PBXNativeTarget "Snappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BDF6BD61D853235006C10D0 /* Debug */,
+				4BDF6BD71D853235006C10D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BDF6BB61D853235006C10D0 /* Project object */;
+}

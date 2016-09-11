@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FilterView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="144"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="gBe-uX-7Eb">
+                    <rect key="frame" x="40" y="22.5" width="520" height="121.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FILTER BY TAG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Lp-iv-ISm">
+                    <rect key="frame" x="267" y="0.0" width="67.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gBe-uX-7Eb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="96G-gp-rBx"/>
+                <constraint firstItem="2Lp-iv-ISm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="H3d-9o-d3t"/>
+                <constraint firstItem="gBe-uX-7Eb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="I08-BC-Zae"/>
+                <constraint firstItem="2Lp-iv-ISm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="hsA-OB-hgA"/>
+                <constraint firstAttribute="bottom" secondItem="gBe-uX-7Eb" secondAttribute="bottom" id="mEx-IM-T8j"/>
+                <constraint firstAttribute="trailing" secondItem="gBe-uX-7Eb" secondAttribute="trailing" constant="40" id="qaS-6x-PQh"/>
+                <constraint firstItem="gBe-uX-7Eb" firstAttribute="top" secondItem="2Lp-iv-ISm" secondAttribute="bottom" constant="8" id="uwj-3t-hva"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="I08-BC-Zae"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="textField" destination="gBe-uX-7Eb" id="0t1-Ad-f4D"/>
+            </connections>
+            <point key="canvasLocation" x="341" y="162"/>
+        </view>
+    </objects>
+</document>
